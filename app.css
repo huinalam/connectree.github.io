@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);header {
+  margin: 10px;
+}
+header .logo img {
+  width: 150px;
+}
+.home .description {
+  padding-left: 10px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.home .description:before {
+  opacity: 0.6;
+}
+.home .description span {
+  font-size: 1.5rem;
+  background-color: rgba(178,160,152,0.8);
+}
+.home .description span.focus {
+  font-weight: bold;
+}
+.home .description p {
+  line-height: 1.7rem;
+}
+.home .menu {
+  padding-top: 10px;
+  background-color: #b2a098;
+}
+.home .menu .button {
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #90776c;
+  height: 2rem;
+}
+.home .menu .button span {
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
