@@ -1,0 +1,274 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);header {
+  margin: 10px;
+}
+header .logo img {
+  width: 150px;
+}
+body sup {
+  top: -0.5rem;
+  font-size: 0.75rem;
+  position: relative;
+}
+body span.underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+body .header {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #b2a098;
+  height: 2.5rem;
+  color: #362100;
+  font-weight: bold;
+}
+body .header h3 {
+  position: relative;
+  top: 5px;
+}
+body .bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .bottom .button {
+  height: 3rem;
+  background-color: #90776c;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #362100;
+}
+body .bottom .button span {
+  font-size: 2rem;
+  position: relative;
+  top: 5px;
+}
+.main-top {
+  font-size: 1.5rem;
+}
+.home .description {
+  padding-left: 10px;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.home .description:before {
+  opacity: 0.6;
+}
+.home .description span {
+  font-size: 1.5rem;
+  background-color: rgba(178,160,152,0.8);
+}
+.home .description span.focus {
+  font-weight: bold;
+}
+.home .description p {
+  line-height: 1.7rem;
+}
+.home .menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b2a098;
+}
+.home .menu .button {
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #90776c;
+  height: 2rem;
+}
+.home .menu .button span {
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.search {
+  margin-top: 100px;
+}
+.search .descrption {
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.search select {
+  margin-left: 10px;
+  width: 90%;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #b2a098;
+}
+.search-result .list .item {
+  border: 1px solid #90776c;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1rem;
+}
+.search-result .list .item h3 {
+  color: #362100;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.search-result .list .item .partnership {
+  position: absolute;
+  right: 20px;
+}
+.search-result .list .item .partnership img {
+  width: 60px;
+}
+.search-result .list .item button {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.partner-detail .image img {
+  width: 100%;
+}
+.partner-detail .detail {
+  margin-bottom: 100px;
+}
+.partner-detail .detail .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.partner-detail .detail .title h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.partner-detail .detail .title .summary {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+.partner-detail .detail .info-header {
+  font-size: 1.2rem;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.partner-detail .detail .info-description {
+  font-size: 1rem;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.partner-detail .detail table {
+  border: 1px solid #362100;
+  width: 90%;
+  margin: 10px;
+}
+.partner-detail .detail table th {
+  padding: 10px;
+  background-color: #b2a098;
+  width: 50%;
+  border: 1px solid #362100;
+}
+.partner-detail .detail table td {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #362100;
+}
+.sales-man .info {
+  margin-left: 10px;
+  margin-top: 30px;
+  line-height: 1.5rem;
+}
+.sales-man .info h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.sales-man .info input {
+  width: 90%;
+  height: 2rem;
+}
+.partner-confirm .info {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #90776c;
+  border-radius: 4px;
+}
+.partner-confirm .info .title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.partner-confirm .info .no {
+  margin-top: 10px;
+  text-align: right;
+}
+.partner-confirm .info .head {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.partner-confirm .info .description {
+  margin-top: 30px;
+}
+.partner-confirm a {
+  text-decoration: none;
+  color: #362100;
+}
+.bucket .list .item {
+  border: 1px solid #90776c;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1rem;
+}
+.bucket .list .item h3 {
+  color: #362100;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.bucket .list .item .partnership {
+  position: absolute;
+  right: 20px;
+}
+.bucket .list .item .partnership img {
+  width: 60px;
+}
+.bucket .list .item button {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
